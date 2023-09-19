@@ -9,9 +9,9 @@ import About from './About'
 export default function All() {
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio/">
       <Routes>
-        <Route path="/" basename="/portfolio/" element={<Main/>}/> {/* 👈 Renders at /app/ */}
+        <Route path="/"  element={<Main/>}/> {/* 👈 Renders at /app/ */}
         <Route path="/About" element={<About/>}/> {/* 👈 Renders at /app/ */}
       </Routes>
     </BrowserRouter>
