@@ -11,7 +11,7 @@ export default function All() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" basename="All" element={<Main/>}/> {/* 👈 Renders at /app/ */}
+        <Route path="/" basename="portfolio" element={<Main/>}/> {/* 👈 Renders at /app/ */}
         <Route path="/About" element={<About/>}/> {/* 👈 Renders at /app/ */}
       </Routes>
     </BrowserRouter>
