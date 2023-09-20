@@ -7,7 +7,7 @@ export default function About() {
     <>
     <Nav/>
     <div className="container mt-5">
-    <h3 className="text-warning mb-5 border-bottom">Skill</h3>
+    <h3 className="text-warning mb-5 border-bottom">Skills</h3>
     <div className="row text-white text-center mb-5">
         <div className="col-sm-4 ">
             <i className="fa-brands fa-python fa-2x mb-3 " style={{color:"chartreuse"}} ></i>
